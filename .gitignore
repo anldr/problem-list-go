@@ -1,0 +1,14 @@
+.idea/
+target/
+*.iml
+*.jar
+*.war
+*.rar
+
+# Intelij file
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# goland file

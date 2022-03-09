@@ -1,2 +1,2 @@
 # problem-list-go
-go solution
+go solutions
