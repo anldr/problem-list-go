@@ -1,14 +1,10 @@
 package main
 
 import "container/heap"
+import . "../common_utils"
 
 func main() {
 
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
 }
 
 type PriorityQueue []*ListNode

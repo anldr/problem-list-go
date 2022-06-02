@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "../common_struct"
+	. "../common_utils"
 	"fmt"
 )
 

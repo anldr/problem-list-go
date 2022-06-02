@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "../common_struct"
+	. "../common_utils"
 	"fmt"
 )
 
@@ -26,7 +26,7 @@ func countTexts(pressedKeys string) int {
 		if pre == pressedKeys[i-1] {
 			tot++
 			var arrLen = len(dict[pre-'0'])
-			for k := 1; k <= Min(arrLen, tot); k++ {
+			for k := 1; k <= MinInt32(arrLen, tot); k++ {
 				dp[i] = (dp[i] + dp[i-k]) % mod
 			}
 		} else {
