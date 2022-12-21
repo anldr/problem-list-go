@@ -1,13 +1,9 @@
 package main
 
+import . "../common_utils"
+
 func main() {
 
-}
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
 }
 
 func convertBST(root *TreeNode) *TreeNode {
